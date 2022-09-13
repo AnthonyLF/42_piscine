@@ -1,1 +1,1 @@
-git status --ignored -s | grep !! | sed 's!! //'
+git status --ignored -s | grep !! | sed 's/!! //g'
